@@ -39,7 +39,6 @@ Page({
                 },
             });
         }
-        console.log(app.globalData.userInfo)
     },
     getUserInfo: function (e) {
         console.log(e);
