@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="mainBox">
+  <view class="aniBox"></view>
+  <view class="mainMenu"></view>
+</view>

@@ -12,11 +12,6 @@ Page({
             url: '../logs/logs',
         });
     },
-    goMenu:function(){
-        wx.navigateTo({
-            url: '../welcome/welcome',
-        });
-    },
     onLoad: function () {
         var _this = this;
         if (app.globalData.userInfo) {
@@ -44,7 +39,6 @@ Page({
                 },
             });
         }
-        console.log(app.globalData.userInfo)
     },
     getUserInfo: function (e) {
         console.log(e);
