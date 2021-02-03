@@ -1,0 +1,8 @@
+"use strict";
+var router = {
+    WELCOME: '/pages/welcome/welcome',
+    MENU: '/pages/index/index',
+    EXTRA: '/pages/extra/extra'
+};
+module.exports = router;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicm91dGVyLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsicm91dGVyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxJQUFNLE1BQU0sR0FBRztJQUNiLE9BQU8sRUFBQyx3QkFBd0I7SUFDaEMsSUFBSSxFQUFDLG9CQUFvQjtJQUN6QixLQUFLLEVBQUMsb0JBQW9CO0NBQzNCLENBQUE7QUFDRCxNQUFNLENBQUMsT0FBTyxHQUFHLE1BQU0sQ0FBQSIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IHJvdXRlciA9IHtcclxuICBXRUxDT01FOicvcGFnZXMvd2VsY29tZS93ZWxjb21lJyxcclxuICBNRU5VOicvcGFnZXMvaW5kZXgvaW5kZXgnLFxyXG4gIEVYVFJBOicvcGFnZXMvZXh0cmEvZXh0cmEnXHJcbn1cclxubW9kdWxlLmV4cG9ydHMgPSByb3V0ZXIiXX0=
