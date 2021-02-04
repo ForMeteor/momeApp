@@ -1,0 +1,24 @@
+{
+  "name": "momeApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForMeteor/momeApp.git"
+  },
+  "keywords": [],
+  "author": "Mia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ForMeteor/momeApp/issues"
+  },
+  "homepage": "https://github.com/ForMeteor/momeApp#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.5.3",
+    "miniprogram-datepicker": "^0.5.1"
+  }
+}

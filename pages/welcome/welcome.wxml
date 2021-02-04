@@ -1,7 +1,8 @@
 <!--index.wxml-->
 <view class="mainBox">
-  <view class="aniBox" style="{{parentStyle}}">
+  <!-- <view class="aniBox" style="{{parentStyle}}">
    <canvas type="2d" id="myCanvas" style="{{parentStyle}}"></canvas>
-  </view>
-  <view class="mainMenu" bindtap="goNext">12313</view>
+  </view> -->
+  <!-- <view class="mainMenu" bindtap="goNext">12313</view> -->
+  <van-button type="primary">按钮</van-button>
 </view>
