@@ -10,8 +10,7 @@
   </swiper>
   <view class="scroll-text" bindtap="goNext">咕噜咕噜</view>
   <view class="menu-box">
-    <view class="menu-item" wx:for="{{menuList}}" wx:for-index="idx" wx:for-item="menuItems"  wx:key="menuItems
-    ">
+    <view class="menu-item" wx:for="{{menuList}}" wx:for-index="idx" wx:for-item="menuItems"  wx:key="menuItems">
       {{idx}}
     </view>
   </view>
