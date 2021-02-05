@@ -1,8 +1,20 @@
 <!--index.wxml-->
 <view class="mainBox">
-  <!-- <view class="aniBox" style="{{parentStyle}}">
-   <canvas type="2d" id="myCanvas" style="{{parentStyle}}"></canvas>
-  </view> -->
-  <!-- <view class="mainMenu" bindtap="goNext">12313</view> -->
-  <van-button type="primary">按钮</van-button>
+  <swiper indicator-dots="true"
+    autoplay="true">
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item {{item}}"></view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="scroll-text" bindtap="goNext">咕噜咕噜</view>
+  <view class="menu-box">
+    <view class="menu-item" wx:for="{{menuList}}" wx:for-index="idx" wx:for-item="menuItems"  wx:key="menuItems
+    ">
+      {{idx}}
+    </view>
+  </view>
+  <view class=""></view>
+  <!-- <van-button type="primary">按钮</van-button> -->
 </view>
