@@ -15,7 +15,7 @@ Page({
     onReady(){
         let k = []
         for(let i = 0;i < 12;i++){
-            k.push('')
+            k.push(i)
         }
         this.setData({
             menuList: k

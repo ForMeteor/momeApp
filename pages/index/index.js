@@ -1,5 +1,7 @@
 // index.js
 // 获取应用实例
+import { EXTRA,WELCOME } from '../../config/router'
+import { NAV_TO } from '../../utils/view_utils'
 const app = getApp()
 
 Page({
@@ -11,9 +13,10 @@ Page({
   },
   // 事件处理函数
   bindViewTap() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
+    NAV_TO('WELCOME')
+    // wx.navigateTo({
+    //   url: '../logs/logs'
+    // })
   },
   onLoad() {
     if (app.globalData.userInfo) {
